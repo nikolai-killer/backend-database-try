@@ -1,6 +1,6 @@
 import {greet} from './function';
 
-module.exports = greet();
+export {greet} from './function';
 export const hello = () => {
   return 'if';
 }
