@@ -2,7 +2,7 @@ import { Column, Entity } from 'typeorm';
 import { IsNotEmpty, IsOptional, IsString} from 'class-validator';
 
 @Entity('addresses')
-export class AddressEntity {
+class AddressEntity {
   @Column()
   @IsNotEmpty()
   @IsString()
@@ -33,3 +33,5 @@ export class AddressEntity {
   @IsString()
   country: string;
 }
+
+module.exports = AddressEntity;
