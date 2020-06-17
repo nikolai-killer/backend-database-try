@@ -1,6 +1,4 @@
-
-
-const AddressEntity = require('./address/address.entity');
+import AddressEntity = require('./address/address.entity');
 
 
 module.exports = AddressEntity;
