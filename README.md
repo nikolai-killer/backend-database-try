@@ -18,7 +18,7 @@ It contains:
 * requests.dto: Defines DTOs that are required for incoming requests
 * responses.dto: Defines DTOs that are required for outgoing responses
 
-Under src/entities is the index.cjs, which is the entry point for the node module: 
+Under src/entities is the index.ts, which is the entry point for the node module: 
 **All defined classes must be exported here.**
 
 ## Usage in impAct microservices
