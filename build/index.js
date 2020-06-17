@@ -10,10 +10,5 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !exports.hasOwnProperty(p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.greet = void 0;
-__exportStar(require("./entities/address/address.entity"), exports);
-__exportStar(require("./entities/base.entity"), exports);
-exports.greet = function () {
-    return 'Hello fremder';
-};
+__exportStar(require("./function"), exports);
 console.log('hello ihr');
