@@ -1,12 +1,8 @@
-import { Column, Entity, JoinColumn, ManyToOne, OneToMany, OneToOne } from 'typeorm';
-import { BaseEntity } from '../base.entity';
-import { IsNotEmpty, IsOptional, IsString, IsUUID } from 'class-validator';
-import { InstitutionEntity } from '../institution/institution.entity';
-import { CategoryEntity } from '../category/category.entity';
-import { UserEntity } from '../user/user.entity';
+import { Column, Entity } from 'typeorm';
+import { IsNotEmpty, IsOptional, IsString} from 'class-validator';
 
 @Entity('addresses')
-export class AddressEntity extends BaseEntity {
+export class AddressEntity {
   @Column()
   @IsNotEmpty()
   @IsString()
