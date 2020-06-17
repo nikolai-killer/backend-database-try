@@ -2,7 +2,7 @@ import { Column, Entity } from 'typeorm';
 import { IsNotEmpty, IsOptional, IsString} from 'class-validator';
 
 @Entity('addresses')
-class AddressEntity {
+export class AddressEntity {
   @Column()
   @IsNotEmpty()
   @IsString()
