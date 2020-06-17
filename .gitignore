@@ -5,3 +5,5 @@ tmp/
 temp/
 #env
 ormconfig.json
+
+./node_modules
