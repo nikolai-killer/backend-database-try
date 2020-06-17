@@ -1,4 +1,4 @@
-import AddressEntity = require('./address/address.entity');
+import AddressEntity from './address/address.entity';
 
 export { AddressEntity };
 
