@@ -5,8 +5,6 @@
   "author": "impAct",
   "license": "GPL-3.0-only",
   "main": "src/index.js",
-  "types": "src/index.d.ts",
-  "type": "module",
   "scripts": {
     "compile-typescript": "tsc",
     "prettier:fix": "prettier --write \"src/**/*.ts\"",
