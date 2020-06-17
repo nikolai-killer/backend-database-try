@@ -16,3 +16,4 @@ __exportStar(require("./entities/base.entity"), exports);
 exports.greet = function () {
     return 'Hello fremder';
 };
+console.log('hello ihr');

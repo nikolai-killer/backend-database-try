@@ -6,3 +6,5 @@ export * from './entities/base.entity'
 export const greet = () => {
   return 'Hello fremder';
 }
+
+console.log('hello ihr');

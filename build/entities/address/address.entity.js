@@ -73,3 +73,4 @@ var AddressEntity = /** @class */ (function (_super) {
     return AddressEntity;
 }(base_entity_1.BaseEntity));
 exports.AddressEntity = AddressEntity;
+module.exports = AddressEntity;

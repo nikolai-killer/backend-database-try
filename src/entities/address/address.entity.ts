@@ -34,3 +34,4 @@ export class AddressEntity extends BaseEntity {
   @IsString()
   country: string;
 }
+module.exports = AddressEntity;
