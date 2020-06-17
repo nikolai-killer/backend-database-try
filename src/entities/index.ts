@@ -2,6 +2,6 @@
  * Entities
  * */
 
-const ad = require("./address/address.entity");
+import ad = require("./address/address.entity");
 
 module.exports = ad ;
